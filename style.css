@@ -1,0 +1,97 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-image: url("hack.jfif");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+header {
+    background-color: rgb(31, 90, 80);
+    border-radius: 5px;
+    color:rgba(0, 0, 0, 0.815);
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    font-weight: bold;
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 100px;
+}
+
+#formulario{
+    border: solid 4px darkgreen;
+    background-color: rgba(0, 0, 0, 0.836);
+    padding: 30px;
+    font-size: 2.7vw;
+    color:whitesmoke;
+    border-radius: 20px;
+    width: 60vw;
+}
+
+#mensagem{
+    margin-top:10px;
+    width: 85%;
+    font-size: 2vw;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+#passoInput{
+    margin-top:10px;
+    width: 15%;
+    font-size: 2vw;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.invisivel{
+    display: none;
+}
+
+select{
+    margin: 15px 0px;
+    width: 30%;
+    height: 4vw;
+    font-size: 2vw;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+#botao{
+    width: 70%;
+    font-size: 2vw;
+    padding: 10px;
+    border: solid 3px green;
+    color:rgba(199, 180, 180, 0.973);
+    background-color: transparent;
+    font-family: 'New Tegomin', serif;
+    border-radius: 10px;
+    font-weight: bold;
+}
+
+#botao:hover{
+    background-color: rgba(0, 0, 0, 0.836);
+}
+
+footer{
+    font-family: cursive;
+    font-weight: bold;
+    margin-top: 200px;
+    background-color: rgb(31, 90, 80);
+    color: rgba(0, 0, 0, 0.815);
+    padding: 30px;
+    display: flex;
+    justify-content: center;
+    font-size: 2vw;
+}
